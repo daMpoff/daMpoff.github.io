@@ -10,7 +10,7 @@ html,body {
     margin: 0;
 }
 body{
-    background-color: black;
+    background-color: #2c2c2c;
     color: white;
 }
 .navbar {
@@ -32,9 +32,9 @@ h2 {
     font-family: "vk-sans";
     background: #ffffff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #274046, #ffffff7d);
+    background: -webkit-linear-gradient(to right, #00a080, #40a0a0);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #274046, #ffffff7d);
+    background: linear-gradient(to right, #00a080, #40a0a0);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     animation: gradient 3s infinite linear;
     background-size: 400%;
@@ -45,12 +45,12 @@ h2 {
 /* Стили для плавающей кнопки */
 .float-button {
     position: fixed;
-    width: 5vh;
-    height: 5vh;
+    width: 7vh;
+    height: 7vh;
     bottom: 10vh;
     left: 50vw;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color:#2c2c2c;
     border-radius: 50%; /* Круглая форма */
     text-align: center; /* Центровка иконки */
     box-shadow: 0px 0px 3vh rgba(255, 255, 255, 0.7); /* Тень под кнопкой */
@@ -58,15 +58,16 @@ h2 {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    border: #ffffff;
+    border: none;
     transition: background-color 0.4s ease;
 }
 .bi{
-    font-size: 5vh;
+    font-size: 8vh;
 }
 .float-button:hover {
     box-shadow: 0px 0px 2vh rgba(255, 255, 255, 0.5);
-    background-color: #323232; /* Изменение цвета при наведении */
+    background-color: white; /* Изменение цвета при наведении */
+    color: blue;
 }
 h1 {
     font-size: 11vw;
