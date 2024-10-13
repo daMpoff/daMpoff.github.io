@@ -13,7 +13,7 @@
 
 <body>
     <!-- Навигационная панель -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">studentStats</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,29 +31,66 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Обмен информацией</a>
                     </li>
-                    <li class="nav-item"></li>
-                    <a class="nav-link" href="#">Контакты</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О cайте</a>
+                        <a class="nav-link" href="#">О сайте</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Центральная часть-->
-    <main>
-        <div class="container">
-            <div class="center-block">
-                <h1 id="nameSite">studentStats</h1>
-            </div>
+
+    <!-- Центральная часть с названием посередине -->
+    <main class="main-section">
+        <div class="container-fluid d-flex align-items-center justify-content-center text-center main-container">
+            <h1 id="nameSite">studentStats</h1>
         </div>
     </main>
+
+    <!-- Блоки для входа и регистрации -->
+    <section class="container entry-section" id="entry-section">
+        <div class="row justify-content-center gy-5">
+            <!-- Карточка для студентов -->
+            <div class="col-md-4 offset-0 mt-0 custom-mt-student">
+                <div class="card-entry shadow">
+                    <img src="img/students.png" alt="Студенты" class="card-img">
+                    <div class="card-body">
+                        <h3>Для студентов</h3>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка для работодателей -->
+            <div class="col-md-4 offset-0 custom-mt-employer">
+                <div class="card-entry shadow">
+                    <img src="img/employers.png" alt="Работодатели" class="card-img">
+                    <div class="card-body">
+                        <h3>Для работодателей</h3>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка для управляющих организаций -->
+            <div class="col-md-4 offset-0 custom-mt-manager">
+                <div class="card-entry shadow">
+                    <img src="img/manager.png" alt="Управляющие организации" class="card-img">
+                    <div class="card-body">
+                        <h3>Для управляющих организаций</h3>
+                        <a href="#" class="btn btn-primary">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Плавающая кнопка -->
-        <a href="#" class="float-button btn btn-primary">
-            <i class="bi bi-arrow-down-circle-fill"></i>
-        </a>
-    <!--Подвал-->
+    <a href="#entry-section" class="float-button btn btn-primary">
+        <i class="bi bi-arrow-down-circle-fill"></i>
+    </a>
+
+    <!-- Подвал -->
     <footer>
         <div class="container">
             &copy; 2024 Учебный сайт группы О-22-ИАС-аид-С
