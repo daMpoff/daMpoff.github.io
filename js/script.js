@@ -1,10 +1,8 @@
-// Анимация заголовка
 gsap.from("#nameSite", {
-    duration: 1.5,
-    opacity: 0,
-    ease: "power4.out",
-    transform: "translateY(350%)",
-    stagger: 0.1
+    duration: 5,
+    scale: 0,
+    opacity: 0,  // Начальная прозрачность
+    ease: "power4.out"
 });
 
 // Обработчик события для плавной прокрутки к началу элемента с id 'entry-section'
