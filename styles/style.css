@@ -41,13 +41,12 @@ P {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-    /* Тень для карточек */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);/* Тень для карточек */
 }
 
 .card-entry:hover {
     transform: scale(1.08);
-    box-shadow: 0px 0px 20px rgba(91, 76, 164, 0.5);
+    box-shadow: 0px 0px 20px rgba(89, 65, 212, 0.5);
 }
 
 .card-img {
