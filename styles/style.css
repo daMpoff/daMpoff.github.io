@@ -8,7 +8,8 @@
     justify-content: center;
     text-align: center;
 }
-.section{
+
+.section {
     min-height: 30vh;
     padding: 10vh 0vh 5vh 0vh;
 }
@@ -18,9 +19,12 @@ h1 {
     color: #ffffff;
     font-size: 10vw;
 }
-h2, p{
+
+h2,
+p {
     font-family: "pixel-font";
 }
+
 P {
     font-size: 2vw;
 }
